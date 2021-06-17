@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(244,244,244);
+    color: rgb(44, 44, 44);
+    
+    font-size: 15px;
+    font-family: Open Sans, sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(218,221,223);
+    box-shadow: 0 10px 40px -15px rgb(116,138,179);
+
+    max-width: 75%;
+    height: 570px;
+
+    border-radius: 6px;
+    padding: 26px;
+}
+
+#title {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgb(244,244,244);
+
+    padding: 6px;
+    border-radius: 6px;
+    margin-bottom: 26px;
+}
+
+.loginContainer {
+    height: 250px;
+}
+
+form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+form label {
+    display: none;
+}
+
+.input {
+    margin-bottom: 14px;
+    padding: 8px;
+
+    border: none;
+    border-bottom: 2px solid rgb(116,138,179);
+
+    background-color: rgb(218,221,223);
+
+    line-height: 20px;
+}
+
+.input:focus {
+    outline: none;
+
+    border: 2px solid rgb(116,138,179);
+    
+    margin: -2px -2px 14px -2px; 
+
+    border-radius: 6px;
+}
+
+.input:focus::placeholder {
+    opacity: 0.7;
+}
+
+.submit {
+    border-radius: 6px;
+    padding: 6px;
+
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: rgb(218,221,223);    
+    background-color: rgb(116,138,179);
+    border: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section h1 {
+    display: none;
+}
+
+section img {
+    width: 35px;
+    height: 35px;
+
+    background-color: rgb(244,244,244);
+    opacity: 0.8;
+    
+    padding: 6px;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-right: 6px;
+}
+
+section img:hover {
+    border: 2px solid rgb(116,138,179);
+    margin: 14px 4px -2px -2px; 
+}
+
+.imgContainer {
+    max-width: 480px;
+
+    margin-top: -19px;
+    align-self: center;
+}
+
+.imgContainer img {
+    max-width: inherit;
+
+    opacity: 0.5;
+}
+
