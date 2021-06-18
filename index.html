@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign in!</title>
+    <link rel="icon" href="Images/rocket.svg">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu:700" rel="stylesheet">
 </head>
@@ -15,8 +16,12 @@
                 <label for="emailBox">Username or email</label>
                 <input type="text" id="emailBox" class="input" placeholder="Username or email address">
                 <label for="passwordBox">Password</label>
-                <input type="text" id="passwordBox" class="input" placeholder="Password">
+                <input type="password"  minlength="6" maxlength="14" 
+                id="passwordBox" class="input" placeholder="Password">
                 <input type="submit" id="submitButton" class="submit" value="Go!">
+            </form>
+            <form action="/CreateAccountURL">
+                <input type="button" id="subtitle" value="Don't have an account? Sign up here!">
             </form>
             <section>
                 <h1>Sign-in alternatives</h1>
